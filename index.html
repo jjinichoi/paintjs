@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <!-- canvas - 픽셀들을 다루는 요소 -->
     <canvas id="jsCanvas" class="canvas "></canvas>
     <div class="controls">
         <div class="controls__range">
@@ -16,17 +17,18 @@
         <div class="controls__btns">
             <button id="jsMode">Fill</button>
             <button id="jsSave">Save</button>
+            <button id="jsClear">Reset</button>
         </div>
         <div class="controls__colors" id="jsColors">
-            <div class="controls__color" style="background:#2c2c2c"></div>
-            <div class="controls__color" style="background:#ffffff"></div>
-            <div class="controls__color" style="background:#FF3B30"></div>
-            <div class="controls__color" style="background:#ff9500"></div>
-            <div class="controls__color" style="background:#FFCC00"></div>
-            <div class="controls__color" style="background:#4CD963"></div>
-            <div class="controls__color" style="background:#5AC8FA"></div>
-            <div class="controls__color" style="background:#0579FF"></div>
-            <div class="controls__color" style="background:#5856D6"></div>
+            <div class="controls__color jsColor" style="background:#2c2c2c"></div>
+            <div class="controls__color jsColor" style="background:#ffffff"></div>
+            <div class="controls__color jsColor" style="background:#FF3B30"></div>
+            <div class="controls__color jsColor" style="background:#ff9500"></div>
+            <div class="controls__color jsColor" style="background:#FFCC00"></div>
+            <div class="controls__color jsColor" style="background:#4CD963"></div>
+            <div class="controls__color jsColor" style="background:#5AC8FA"></div>
+            <div class="controls__color jsColor" style="background:#0579FF"></div>
+            <div class="controls__color jsColor" style="background:#5856D6"></div>
         </div>
     </div>
 
