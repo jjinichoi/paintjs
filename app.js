@@ -89,7 +89,11 @@ function handleRightClick(event){
 // event는 애드이벤터에서 함수를 사용할때만 입력
 
 function handleSaveClick(){
-    ctx.
+    const image = canvas.toDataURL("image/png");//png가 기본이라확장자 안적어도됨
+    const link = document.createElement("a");
+    link.href = image;
+    link.download = "PaintJS[EXPORT]";
+    link.click();
 }
 
 if(canvas){
